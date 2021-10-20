@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<title>LUMI ASSIGNMENT</title>
+</head>
+
+	<!-- Font Awesome Icon Library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style type="text/css">
+		.TOP{
+			width: 170px;
+			height: 20px;
+			font-family: Arial;
+			font-size: 30;
+			color: white;
+			padding: 5px;
+			cell-padding: 3px 0px 0px 0px;
+			background: rgb(247,206,70);
+			border-radius: 0px 5px 0px 0px;
+			margin-top: 0px;
+			}
+
+		.TOP1{
+			width: 327px;
+			height: 2px;
+			background: rgb(247,206,70);
+			margin: 1px 0px 5px 0px;
+			}
+		
+
+		
+
+		.image1{
+			width:327px;
+			height: 110px;
+		    margin: 0px 0px 0px 0px;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		#container1{
+			position: relative;
+			float:left;
+			width: 150px;
+			height: 300px;
+			border: 1px;
+			border-style: solid;
+			border-color: rgb(219 224 229);
+			border-radius: 5px 5px 5px 5px;
+			margin:25px 20px 5px 0px;
+			}
+			
+		#container2{
+			position:relative;
+			float: left;
+			width: 150px;
+			height:300px;
+			border: 1px;
+			border-style: solid;
+			border-color: rgb(219 224 229);
+			border-radius: 5px 5px 5px 5px;
+			margin:25px 0px 5px 0px;
+			}
+			
+		.BOTTOM{
+			width: 230px;
+			height: 20px;
+			margin:350px 0px 0px 0px;
+			font-family: Arial;
+			font-size: 18px;
+			color: white;
+			padding: 3px;
+			background: rgb(40, 95, 244);
+			border-radius: 0px 5px 0px 0px;
+			}
+			
+		.BOTTOM2{
+			width: 327px;
+			height: 2px;
+			background: rgb(40, 95, 244);
+			margin-top: 1px;
+			}
+			
+		.image2{
+			width: 100px;
+			height: 110px;
+			position: relative;
+		    top: 10px;
+			left:24px;
+			margin-bottom:50px;
+			}
+
+
+			
+		.image3{
+			width: 110px;
+			height: 110px;
+		    position:relative;
+			top: 10px;
+			left:20px;
+			margin-bottom:50px;
+			}
+			
+		.TEXT1{
+			position: relative;
+			text-transform: capitalize;
+			text-align: center;
+			color: rgb(103 106 109);
+			margin-top: 20px;
+			font-family: Arial;
+			}
+			
+		.TEXT2{
+			position: relative;
+			text-align: center;
+			font-weight: bold;
+			color: rgb(0 0 0);
+			margin-top: 5px;
+			font-family: Arial;
+			}
+		
+		.TEXT3{
+			position: relative;
+			text-align: center;
+			color: rgb(103 106 109);
+			margin-top: 3px;
+			font-family: Arial;
+			}
+		    .yellow-color{
+		    	color: yellow;
+		    }
+			.blue-color{
+				color: blue;
+			}
+	</style>
+<body>
+
+	<div class="TOP"><h10> SHOE, KIDS & BABY</h10></div>
+
+	<div class="TOP1"></div>
+	
+	<div class="image1">
+		<img src="blue.jpg"/>
+	</div>
+	
+	<div id="container1"> 
+		<div class="image2">
+			<img src="camera.jpg"/>
+		</div>
+		<div class="TEXT1"><h6> ALL DEPARTMENTS</h6></div>
+		<div class="TEXT2"><h5><strong>Nikon digital cam...</strong></h5></div>
+		<div class="TEXT3">	
+			<p>
+				<span class="fa fa-star blue-color"></span>
+				<span class="fa fa-star blue-color"></span>
+				<span class="fa fa-star-half-full blue-color"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</p>
+		
+			<p>&#8358; 9,000.00</p>
+		</div>
+	</div>
+	
+	<div id="container2"> 
+		<div class="image3">
+			<img src="yellow.jpg"/>
+		</div> 
+		<div class="TEXT1"><h6>ALL DEPARTMENTS</h6></div>
+		<div class="TEXT2"> <h5><strong>Designer shoe 4...</strong></h5></div>
+		<div class="TEXT3">	
+			<p>
+				<span class="fa fa-star yellow-color"></span>
+				<span class="fa fa-star yellow-color"></span>
+				<span class="fa fa-star yellow-color"></span>
+				<span class="fa fa-star-half-full yellow-color"></span>
+				<span class="fa fa-star"></span>
+			</p>
+		
+			<p>&#8358; 217,000.00</p>
+		</div>
+	</div>
+	
+	<div class="BOTTOM"><h10> CAMERA & SPORT KITS</h10></div>
+	
+	<div class="BOTTOM2"> </div>
+
+</body>
+</html>
